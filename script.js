@@ -1,5 +1,8 @@
 function result1() {
     var sum=0;
+    var result= document.getElementById("result")
+    var quiz = document.getElementById("quiz")
+
     if (document.getElementById("correct1").checked){
         sum++;
     } 
@@ -16,11 +19,12 @@ function result1() {
         sum++;
     } 
     quiz.style.display = "none";
+    
     var finalAns=sum*20;
-    document.write("your score is" + finalAns +"%")
+    document.write("your score is"  +  finalAns + "%")
 
     if (finalAns>=80){
-        document.write("excellent")
+        document.write(" Excellent")
     }
     else if (ans<80 && finalAns>=50){
         document.write(" You fairly passed")
