@@ -4,3 +4,9 @@ html{
     body{
     margin-left: 15%;
     }
+    h1, h3{
+        color: brown;
+        }
+        h2{
+        color: blueviolet;
+        }
