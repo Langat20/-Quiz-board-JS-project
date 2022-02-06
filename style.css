@@ -25,4 +25,9 @@ p{
     font-style: "nunito";
     font-style: italic;
 }
-                
+#result{
+    margin-left: 50px;
+    color: brown;
+    margin-top: 40px;
+    font-size: 30px;
+}     
