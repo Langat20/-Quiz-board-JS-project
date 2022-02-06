@@ -10,3 +10,11 @@ html{
         h2{
         color: blueviolet;
         }
+        .button{
+            background-color: rgb(0, 19, 128);
+            color: azure;
+            height: 50px;
+            width: 90px;
+            margin-left: 25%;
+            border-radius: 5px;
+            }
