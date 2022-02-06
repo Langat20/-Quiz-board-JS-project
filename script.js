@@ -22,7 +22,7 @@ function result1() {
     if (finalAns>=80){
         document.write("excellent")
     }
-    else if (ans<80 && finalAns<=50){
+    else if (ans<80 && finalAns>=50){
         document.write(" You fairly passed")
     }
     else if (finalAns<50){
