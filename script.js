@@ -30,5 +30,5 @@ function result1() {
     }
 }
 function result2(){
-    alert(" make sure you fill all the questions")
+    alert(" you fill all the questions")
 }
